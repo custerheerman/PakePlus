@@ -25,7 +25,7 @@ fn main() {
             )
             .initialization_script(include_str!("./extension/custom.js"))
             .title("X商城")
-            .inner_size(1200.0, 900.0)
+            .inner_size(1280.0, 720.0)
             .center()
             .user_agent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
             .build()?;
